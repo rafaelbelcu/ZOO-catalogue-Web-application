@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#99ff99">
+    <title>ZooHomepage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="images/logo192.png">
+</head>
+
+<body>
+
+    <style>
+        body {
+            background-color: #99ff99;
+        }
+    </style>
+
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                    <a href="wildlife.html">WILDLIFE</a>
+                </div>
+
+                <div class="nav-link-wrapper active-nav-link">
+                    <a href="aboutus.html">ABOUT US</a>
+                </div>
+            </div>
+
+            <div class="right-side">
+                <div class="lookout">
+                    <b>TRANSYLVANIA WILDLIFE LOOKOUT ZOO</b>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="two-column-wrapper">
+                <div class="profile-image-wrapper">
+                    <img src="images/Transylvaniawildlife.jpg" alt="">
+                </div>
+
+                <div class="profile-content-wrapper">
+                    <h1><i><span style="cursor:wait"><font size="+3">TRANSYLVANIA WILDLIFE LOOKOUT ZOO</font></span><br></i></h1>
+                    <p>
+                        <b>
+                            <font size="+1">
+                                <i>
+                                    Located at 13 km from Râșnov town at Southwest of Brasov city, Romania, Transylvania Wildlife Lookout ZOO is a
+                                    Zoological Garden with a total area of 49.5 ha.
+                                </i>
+                            </font>
+                        </b>
+                    </p>
+                    <p>
+                        <b>
+                            <font size="+1">
+                                <i>
+                                    The ZOO represents a public facility that maintains and exposes live, wild,
+                                    indigenous collections of animals and wishes to achieve two main goals: preservation of fauna
+                                    (with priority to endangered species, some which are rescued) that is reprensetative to this
+                                    area; and training, education and recreation of the visitor audience.
+                                </i>
+                            </font>
+                        </b>
+                    </p>
+                    <p>
+                        <b>
+                            <font size="+1">
+                                <i>
+                                    The Wildlife includes the species such as: Brown Bear, Chamois, Eurasian lynx, European green lizard ,Golden jackal,
+                                    European wildcat, Carpathian boar, Fallow deer, Red deer, Red fox, European Bison, Grey wolf.
+                                </i>
+                            </font>
+                        </b>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>&nbsp;</p>
+
+    <canvas id="myCanvas2" width="500" height="37"
+            style="   border: 1px solid #046102;">
+    </canvas>
+
+
+    <div class="row">
+        <div class="column">
+            <audio id="audio" src="Wolf.mp3"></audio>
+            <img id="img" src="images/zoo12.jpg" style="width:100%">
+        </div>
+
+        <div class="column">
+            <audio id="audio1" src="Bear.mp3"></audio>
+            <img id="img1" src="images/zoo1.jpg" style="width:100%">
+        </div>
+
+        <div class="column">
+            <audio id="audio2" src="Deer.mp3"></audio>
+            <img id="img2" src="images/zoo9.jpg" style="width:100%">
+        </div>
+    </div>
+
+
+    <canvas id="myCanvas1" width="500" height="37"
+            style=" border: 1px solid #046102;">
+    </canvas>
+
+
+    <div id="videoss">
+        <table>
+            <tr>
+                <td>
+                    <video width="300" height="300" controls>
+                        <source src="Bear.mp4" type="video/mp4">
+                        <source src="Bear.ogg" type="video/ogg">
+                    </video>
+                </td>
+                <td>
+                    <video width="300" height="300" controls>
+                        <source src="Fox.mp4" type="video/mp4">
+                        <source src="Fox.ogg" type="video/ogg">
+                    </video>
+                </td>
+                <td>
+                    <video width="300" height="300" controls>
+                        <source src="Bison.mp4" type="video/mp4">
+                        <source src="Bison" type="video/ogg">
+                    </video>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <p>&ensp;</p>
+
+    <canvas id="myCanvas3" width="500" height="37"
+            style=" border: 1px solid #046102;">
+    </canvas>
+    <p>&nbsp;</p>
+
+    <div class="filling">
+
+        <div class="fill" draggable="true"> </div>
+    </div>
+
+    <div class="filling">
+    </div>
+
+    <div class="filling">
+    </div>
+
+    &ensp;
+
+    <svg height="190" width="800">
+        <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color: rgb(188, 255, 94);
+        stop-opacity: 1" />
+                <stop offset="100%" style="stop-color: rgb(101, 173, 0);
+        stop-opacity: 1" />
+            </linearGradient>
+        </defs>
+        <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+        <text fill="#005201" font-size="52" font-family="Georgia" x="30" y="83">VISIT</text>
+    </svg>
+
+    <table style="width:100%">
+        <tr>
+            <td><b><font size="+1">CONTACT</b><font size="+1"></td>
+            <td><b><font size="+1">OPEN</b><font size="+1"></td>
+            <td><b><font size="+1">ADRESS</b><font size="+1"></td>
+        </tr>
+        <tr>
+            <td>Phone: 0245779712</td>
+            <td>
+                Monday-Friday: 10AM-5:30 PM
+            </td>
+            <td>Bucegi Street, Rasnov,</td>
+        </tr>
+        <tr>
+            <td>Mobile phone:0745938677</td>
+            <td>Saturday:11AM-4:30PM</td>
+            <td>Brașov County,</td>
+        </tr>
+        <tr>
+            <td>E-mail:twlzoo@yahoo.com</td>
+            <td>Sunday:10AM-4:30PM</td>
+            <td>Romania</td>
+        </tr>
+    </table>
+
+    <p>
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1609599044509!6m8!1m7!1saIzdlu67OEryOSrccupQfQ!2m2!1d45.59470518292185!2d25.41724678639366!3f293.6560253334879!4f1.044063444615773!5f0.7820865974627469"
+                width="1350" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </p>
+
+    <script src="zoog.js"></script>
+
+</body>
+</html>

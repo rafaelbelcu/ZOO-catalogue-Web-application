@@ -1,0 +1,22 @@
+{
+  "name": "Zoo Catalogue and Homepage",
+  "short_name": "Zoo Catalogue",
+  "start_url": ".",
+  "background_color": "#99ff99",
+  "theme_color": "#99ff99",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "images/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}
